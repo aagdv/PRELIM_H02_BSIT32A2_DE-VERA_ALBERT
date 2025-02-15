@@ -1,0 +1,114 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  background-color: #f4f4f4; /* Light background color */
+}
+
+header {
+  background-color: #007bff; /* Blue color for header */
+  color: white;
+  text-align: center;
+  padding: 2rem 0; /* Adjust padding for better spacing */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header h5 {
+  font-size: 1.25rem;
+}
+
+header p {
+  font-size: 1rem;
+}
+
+section {
+  padding: 3rem 0; /* Vertical padding for each section */
+  text-align: center;
+}
+
+#home {
+  background-color: #f1f9ff; /* Light blue for home section */
+}
+
+#about {
+  background-color: #ffffff; /* White background for About Me */
+}
+
+#contact {
+  background-color: #f9f9f9; /* Light gray background for contact */
+}
+
+h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-size: 1rem;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical; /* Allow resizing for the textarea */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+footer {
+  background-color: #007bff; /* Blue footer */
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+footer p {
+  margin: 0;
+}
